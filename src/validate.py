@@ -56,7 +56,7 @@ def validate_split(split: str):
 
     # --- Report results ---
     total = sum(counts.values())
-    print(f"\nClass counts:")
+    print("\nClass counts:")
     for cls in CLASSES:
         pct = (counts[cls] / total * 100) if total else 0
         print(f"  {cls}: {counts[cls]} images ({pct:.1f}%)")
