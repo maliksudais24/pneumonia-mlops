@@ -1,0 +1,5 @@
+tensorflow-cpu==2.15.0
+scikit-learn==1.4.0
+numpy==1.26.4
+pillow==10.2.0
+flask==3.0.2
