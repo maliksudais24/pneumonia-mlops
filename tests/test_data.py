@@ -11,7 +11,6 @@ handling) is correct, using small generated test images.
 
 import sys
 import os
-import numpy as np
 from PIL import Image
 import io
 

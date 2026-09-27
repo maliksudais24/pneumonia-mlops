@@ -13,7 +13,6 @@ Run this BEFORE writing any training code. If this script reports
 problems, fix the data first — garbage in, garbage out.
 """
 
-import os
 from pathlib import Path
 from collections import defaultdict
 from PIL import Image
