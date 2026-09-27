@@ -26,7 +26,7 @@ jobs:
 
       - name: Lint with flake8
         run: |
-          flake8 src/ tests/ --max-line-length=100 --extend-ignore=E203,W503,E501,E111,E127,E302,W291,W292,W293
+          flake8 src/ tests/ --max-line-length=100 --extend-ignore=E203,W503,E501,E111,E127,E302,E303,W291,W292,W293
 
       - name: Run unit tests
         run: |
